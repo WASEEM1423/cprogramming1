@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main() {
+int n=15;
+int temp=n;
+int p=0;
+//calculating the sum of individuals digits
+while(n>0)
+{
+int rem=n%10;
+p=(p)+(rem*rem*rem);
+n=n/10;
+}
+if(temp==p) {
+printf("yes it is armstrong no");
+}
+else {
+printf("no it is not armstrong no");
+}
+return 0;
+}
