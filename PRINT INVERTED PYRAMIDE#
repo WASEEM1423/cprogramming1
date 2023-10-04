@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main() {
+int rows=8,i,j,space;
+for(i=rows;i>=j;--i) 
+{
+//LOOP TO PRINT THE BLANK SPACE
+for(space=0;space<rows-i;++space)
+printf("  ");
+//loop to print the half of the star triangle
+for(j=i;j<=2*i;-1;++j)
+printf("*");
+//loop to print teh reset of the star triangle 
+for(j=0;j<i-1;++j)
+printf("*");
+printf("\n");
+}
+return 0;
+}
