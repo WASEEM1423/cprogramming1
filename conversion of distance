@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main() {
+float km,m,cm,ft,inch;
+printf("enter the distance in kilometers");
+scanf("%f",&km);
+m=km*1000;
+cm=m*100;
+inch=cm/2.54;
+ft=inch/12;
+printf("%f %f %f %f\n",m,cm,ft,inch);
+return 0;
+}
